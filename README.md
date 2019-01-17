@@ -2,7 +2,7 @@
 
 # Build and deploy Java Spring Boot microservices on Kubernetes
 
-*Note*: This in an abbreviated version of the IBM Code Pattern [Build and deploy Java Spring Boot microservices on Kubernetes](https://github.com/IBM/spring-boot-microservices-on-kubernetes)
+*Note*: This in an abbreviated version of the IBM Code Pattern [Build and deploy Java Spring Boot microservices on Kubernetes](https://github.com/IBM/spring-boot-microservices-on-kubernetes). The full version includes building the Docker images and has the option to use Slack for Notifications. We suggest going through the original code pattern at some point.
 
 Spring Boot is one of the popular Java microservices framework. Spring Cloud has a rich set of well integrated Java libraries to address runtime concerns as part of the Java application stack, and Kubernetes provides a rich featureset to run polyglot microservices. Together these technologies complement each other and make a great platform for Spring Boot applications.
 
@@ -24,7 +24,7 @@ The application uses a Java 8/Spring Boot microservice that computes the interes
 
 * [Container Orchestration](https://www.ibm.com/cloud/container-service): Automating the deployment, scaling and management of containerized applications.
 * [Databases](https://en.wikipedia.org/wiki/IBM_Information_Management_System#.22Full_Function.22_databases): Repository for storing and managing collections of data.
-*
+
 # Prerequisite
 
 * Create a Kubernetes cluster with either [Minikube](https://kubernetes.io/docs/getting-started-guides/minikube) for local testing, [IBM Cloud Private](https://github.com/IBM/Kubernetes-container-service-GitLab-sample/blob/master/docs/deploy-with-ICP.md), or with [IBM Cloud Kubernetes Service](https://github.com/IBM/container-journey-template) to deploy in cloud. The code here is regularly tested against [Kubernetes Cluster from IBM Cloud](https://console.ng.bluemix.net/docs/containers/cs_ov.html#cs_ov) using Travis.
